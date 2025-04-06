@@ -1,4 +1,4 @@
-FROM docker.io/library/golang:1.24.1-bookworm AS go
+FROM docker.io/library/golang:1.24.2-bookworm AS go
 
 # Use the Dependabot Updater Core image
 FROM ghcr.io/dependabot/dependabot-updater-core
